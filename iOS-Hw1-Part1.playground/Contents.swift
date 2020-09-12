@@ -7,17 +7,14 @@
 
 let name = "Ahmad"
 
-name = "Salem"
+ let friendName = "Salem"
 
 
 var myWeight = 60
-var FriendWeight = 80.5
-var height = 1.5
+var friendWeight = 80
+var height = 3
 
-
-var weightSum = myWeight + FriendWeight
-
-
+var weightSum = myWeight + friendWeight
 
 var bmi = myWeight * (height * height)
 
@@ -38,35 +35,38 @@ var bmi = myWeight * (height * height)
  */
 
 //Person 1
-var firstName1 = ""
-var lastName1 = ""
-var email1 = ""
-var phoneNumber1 = ""
-var age1 = 0
-var country1 = ""
-var area1 = ""
-var password = ""
-var isKuwaiti = false
+var firstName1 = "Ali"
+var lastName1 = "Mohammad"
+var email1 = "ali@gmail.com"
+var phoneNumber1 = "66666666"
+var age1 = 16
+var country1 = "Kuwait"
+var area1 = "Surra"
+var password = "1234"
+var isKuwaiti = true
 
 //Person 2
-
-
-
-
-
-
-
-
+var firstName2 = "Abdullah"
+var lastName2 = "Salem"
+var email2 = "abdullah@gmail.com"
+var phoneNumber2 = 55555555
+var age2 = 17
+var country2 = "Kuwait"
+var area2 = "Qortuba"
+var password2  = "1235"
+var isKuwaiti2 = true
 
 
 //Person 3
-
-
-
-
-
-
-
+var firstName3 = "Omar"
+var lastName3 = "Khaled"
+var email3 = "omar@gmail.com"
+var phoneNumber3 = 99999999
+var age3 = 18
+var country3 = "Kuwait"
+var area3 = "Yarmouk"
+var password3 = "1236"
+var isKuwaiti3 = true
 
 
 /*
@@ -82,3 +82,24 @@ var isKuwaiti = false
 
  
  */
+var compare = firstName1 == firstName2 || firstName1 == firstName3 || firstName2 == firstName3
+var compareAge = age1 == age2 || age1 == age3 || age2 == age3
+var compareArea = area1 == area2 || area1 == area3 || area2 == area3
+
+var ageCalculate1 = age1 > 18
+var ageCalculate2 = age2 > 18
+var ageCalculate3 = age3 > 18
+
+var ageCalculate4 = age1 < 18
+var ageCalculate5 = age2 < 18
+var ageCalculate6 = age3 < 18
+
+var age1a = age1 == 17
+var age2a = age2 == 17
+var age3a = age3 == 17
+
+var age1b = age1 != 17
+var age2b = age2 != 17
+var age3b = age3 != 17
+
+
